@@ -3,12 +3,12 @@ def fizzbuzz(number):
     answer = []
 
     for current_number in range(1, number + 1):
-        if current_number % 3 == 0:
-            answer.append("Fizz")
+        if current_number % 3 == 0 and current_number % 5==0:
+            answer.append("FizzBuzz")
         elif current_number % 5 == 0:
             answer.append("Buzz")
-        elif current_number % 3 == 0 and current_number % 5 == 0:
-            answer.append("FizzBuzz")
+        elif current_number % 3 == 0:
+            answer.append("Fizz")
         else:
             answer.append(f"{current_number}")
     

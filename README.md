@@ -28,7 +28,7 @@ You can now run the tests with the command
 ```bash
 $ pytest
 ```
-
+## 
 ## FizzBuzz Function
 
 `fizzbuzz` is a function which returns the string representation of numbers from 1 to n.
